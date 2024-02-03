@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(8, 7, 7);
+    margin: auto;
+    height: 4300px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 500px;
+}
+header div:nth-child(2) {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    color: white;
+    list-style: none;
+}
+header div:nth-child(2) button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(49, 48, 48);
+    border: none;
+}
+.main-image{
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.onEar{
+    margin-left: 850px;
+    margin-top: -500px;
+}
+.beats{
+    display: flex;
+    height: 20rem;
+    width: 18rem;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+   line-height: 25px;
+}
+.shoppingBag {
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+.brandLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 160px;
+
+}
+.specsLogo{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.section1{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+    gap: 80px;
+}
+.battery{
+    margin-left: -50px;
+    padding: 10px;
+}
+.charger{
+    margin-left: -50px;
+    padding: 10px;
+}
+.bluetooth{
+    padding: 10px;
+}
+.mic{
+    padding: 10px;
+}
+.sectionA{
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.sectionB{
+    height: 150px;
+    width: 150px;
+    margin-left: 850px;
+    margin-top: -300px;
+}
+.moreInfo{
+    background-color: rgb(49, 48, 48);
+    color: white;
+    padding: 10px 20px;
+}
+.case{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.group{
+    background-color: rgb(49, 48, 48);
+    margin: 10px;
+    padding: 8px 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.section3{
+    height: 400px;
+    width: 900px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 20px;
+    display: flex;
+    margin-left: 270px;
+    margin-top: 300px;
+    gap: 80px;
+}
+.section3 .leftSection{
+    margin-top: 130px;
+    margin-left: 140px;
+  
+}
+.section3 .leftSection h3{
+    line-height: 25px;
+}
+.section3 .leftSection p{
+    line-height: 25px;
+}
+.section3 .rigthSection{
+    margin-top: 80px;
+    margin-right: 120px;
+}
+.section3 .leftSection .shoppingCart{
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: rgb(21, 18, 18);
+    color: white;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.chooseYourStyle{
+    margin-left: 550px;
+    margin-top: 130px;
+}
+.headphone1{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(49, 48, 48);
+    margin-left: 400px;
+    margin-top: 100px;
+   border-radius: 10px;
+}
+.productLogo img{
+    height: 100px;
+    width: 100px;
+    margin-top: -45px;
+    margin-left: 16px;
+}
+.heaphoneColor{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+.cart{
+    margin-left: 100px;
+    margin-top: -35px;
+
+}
+.headphone2{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(49, 48, 48);
+    margin-left: 650px;
+    margin-top: -135px;
+   border-radius: 10px;
+}
+.headphone3{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(49, 48, 48);
+    margin-left: 400px;
+    margin-top: 100px;
+   border-radius: 10px;
+}
+.headphone4{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(49, 48, 48);
+    margin-left: 650px;
+    margin-top: -135px;
+   border-radius: 10px;
+}
+.headphone5{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(49, 48, 48);
+    margin-left: 400px;
+    margin-top: 100px;
+   border-radius: 10px;
+}
+footer{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 100px;
+   margin-top: 200px;
+   gap: 50px;
+}
+.products h3{
+    line-height: 50px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+}
+.support h3{
+    line-height: 50px;
+}
+
+.beatsLogo{
+    margin-top: -70px;
+}
+.subscription{
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 70px;
+    width: 350px;
+    background-color: rgb(49, 48, 48);
+}
+.email{
+    margin-left: 50px;
+    padding: 6px;
+    background-color: rgb(49, 48, 48);
+    outline: none;
+    border: none;
+    color: white;
+}
+.subscriptionButton{
+    background-color: rgb(21, 18, 18);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    margin-right: 30px;
+}
+.socialMediaLogo{
+    margin-bottom: -120px;
+    /* margin-right: 120px; */
+    position: absolute;
+    right: 430px;
+}
+.socialMediaLogo img{
+    padding: 8px;
+}
+.upArrow img{
+    margin-top: -100px;
+
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+/* =============================================header============================================= */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+    margin-top: 5px;
+}
+ul{
+    display: flex;
+   list-style: none;
+   gap: 30px;
+}
+li{
+    font-weight: 600;
+}
+
+/* =============================================MAIN SECTION============================================= */
+.stethoscope img{
+    height: 700px;
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+/* ================================LEFT SECTION================================= */
+.leftSection{
+    width: 50%;
+    margin-top: -600px;
+    margin-left: 100px;    
+}
+.leftSection h1{
+    font-size: 50px;
+    line-height: 55px;
+    padding-bottom: 20px;
+}
+.leftSection p{
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.leftSection button{
+    padding: 15px 60px;
+    border-radius: 30px;
+    background-color: #20bc7e;
+    font-size: 20px;
+    color: white;
+    border: none;
+    transition:  0.8s;
+}
+.leftSection button:hover{
+    background-color: rgb(75, 219, 75);
+}
+.topAngle{
+    margin-left: -10px;
+}
+.bottomAngle{
+    margin-left: 500px;
+    margin-top: -50px;
+}
+/* ================================RIGHT SECTION================================= */
+.rightSection{
+    width: 50%;
+    margin-top: -350px;
+    margin-left: 1000px;
+}
+.doctor img{
+    height: 700px;
+    width: 500px;
+}
+.yellowBox img{
+    height: 350px;
+    width: 400px;
+}
+.greenBox img{
+    height: 460px;
+    width: 480px;
+}
+.mouse{
+    margin-left: 500px;
+    padding: 40px;
+}
+.greenBox,
+.yellowBox {
+  position: absolute;
+  right: 100px;
+}
+
+.greenBox {
+  /* width: 35%; */
+  bottom: 0px;
+  right: 0;
+}
+
+.yellowBox {
+  right: 0px;
+  bottom: 0px;
+  z-index: 5;
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  height: 90%;
+  z-index: 6;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #f0f4f5;
+}
+/* =========================================HEADER======================================= */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+    margin-top: 5px;
+}
+ul{
+    display: flex;
+   list-style: none;
+   gap: 30px;
+}
+ul li{
+    font-weight: 500;
+}
+/* =========================================MAIN SECTION======================================= */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0.5, 0.5, 0.5, 0.5), 0 6px 20px 0 rgba(0.5, 0.5, 0.5, 0.5);
+}
+.container h1{
+    text-align: center;
+    padding: 8px;
+}
+input{
+    padding: 10px 46px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8px;
+}
+h3{
+    margin-right: 200px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.button{
+    padding: 8px 105px;
+    background-color: rgb(81, 190, 127);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+.button:hover{
+    background-color: rgb(66, 168, 109);
+    font-size: 16px;
+    cursor: pointer;
+}
+textarea{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+
